@@ -4,9 +4,26 @@
         <img class="img-fluid location" src="https://picsum.photos/300/300" alt="Maldives" >
         <i class="heart fa fa-heart" aria-hidden="true"></i>
     </div>
-    <div class="contain_body d-flex ps-2 flex-row align-items-start justify-content-between">
-        <div>
-        <div class="head d-flex flex-row align-items-center ">
+
+    <ul>
+            {{#each @booking as |booking|}}
+            <li>
+                <h2>{{booking.title}}</h2>
+            </li>
+            {{/each}} 
+            </ul>
+
+    {{!-- <div class="contain_body d-flex ps-2 flex-row align-items-start justify-content-between"> --}}
+        {{!-- <div>
+            <ul>
+            {{#each @booking as |booking|}}
+                <li>
+                <h3>{{@booking.title}}</h3>
+            </li>
+            {{/each}}
+            </ul>
+            </div> --}}
+        {{!-- <div class="head d-flex flex-row align-items-center ">
             <h2>Maldives </h2>
         </div>
         
@@ -20,8 +37,8 @@
         <div class="side d-flex flex-row align-items-center">
         <i class="star p-0 fa fa-star" aria-hidden="true"></i>
         <p class="m-0 me-3 ms-2 p-0">New</p>
-        </div>
+        </div>--}}
         
-    </div>
+    {{!-- </div>  --}}
     </div>
 </div>
