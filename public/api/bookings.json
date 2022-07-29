@@ -1,20 +1,45 @@
 {
-  "data": {
-    "type": "rentals",
-    "title": "Grand Old Mansion",
-    "id": "grand-old-mansion",
-    "attributes": {
-      "title": "Grand Old Mansion",
-      "owner": "Veruca Salt",
-      "city": "San Francisco",
-      "location": {
-        "lat": 37.7749,
-        "lng": -122.4194
-      },
-      "category": "Estate",
-      "bedrooms": 15,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
-      "description": "This grand old mansion sits on over 100 acres of rolling hills and dense redwood forests."
+  "data": [
+    {
+      "id": "maldives",
+      "type": "bookings",
+
+      "attributes": {
+
+    "img": "https://picsum.photos/300/300",
+      "name": "Maldives",
+      "distance": "16,770 kilometers",
+      "date": "19-24 Sep",
+      "price": "$490 per night"
+      
+
     }
-  }
+    },
+    {
+      
+      "id": "singapore",
+      "type": "bookings",
+    
+      "attributes": {
+        "img": "https://picsum.photos/300/300",
+      "name": "Singapore",
+      "distance": "19,000 kilometers",
+      "date": "04-10 Aug",
+      "price": "$310 per night"
+      
+    }
+    },
+    {
+      "id": "dubai",
+      "type": "bookings",
+      "attributes": {
+        "img": "https://picsum.photos/300/300",
+      "name": "Dubai",
+      "distance": "17,461 kilometers",
+      "date": "11-16 Aug",
+      "price": "$450 per night"
+      
+    }
+    }
+  ]
 }
