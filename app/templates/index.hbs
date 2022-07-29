@@ -1,5 +1,11 @@
 {{page-title "Index"}}
 
-<Site @booking = {{this.model}}/>
+<Site @booking={{this.model}} />
+{{!-- {{#each @model as |property|}}
+      <li><Site @booking={{property}} /></li>
+{{/each}} --}}
+{{!-- {{#each @model as |booking|}}
+      <li><Site @booking={{booking}} /></li>
+    {{/each}} --}}
 
 {{outlet}}
