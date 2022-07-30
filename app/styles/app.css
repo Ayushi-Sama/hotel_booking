@@ -102,3 +102,7 @@ span{
     /* padding-right: 10px; */
 
 }
+
+.main{
+    gap:50px;
+}
