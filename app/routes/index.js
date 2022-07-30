@@ -8,6 +8,7 @@ export default class IndexRoute extends Route {
     //     }
     async model() {
         return this.store.findAll('booking');
+        this.store.findAll('icon');
     //     return {
     //       title: 'Grand Old Mansion',
     //       "attributes": {

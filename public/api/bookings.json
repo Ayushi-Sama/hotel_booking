@@ -40,6 +40,97 @@
       "price": "$450 per night"
       
     }
+    },
+    {
+      "id": "goa",
+      "type": "bookings",
+      "attributes":{
+      "img": "https://picsum.photos/300/300",
+      "name": "Goa",
+      "distance": "1400 kilometers",
+      "date": "15-20 Oct",
+      "price": "$260 per night"
+      
+      }
+
+    },
+    {
+      "id": "sri_lanka",
+      "type": "bookings",
+      "attributes":{
+      "img": "https://picsum.photos/300/300",
+      "name": "Sri Lanka",
+      "distance": "16,650 kilometers",
+      "date": "14-20 Aug",
+      "price": "$500 per night"
+      }
+
+    },
+    {
+      "id": "london",
+      "type": "bookings",
+      "attributes":{
+      "img": "https://picsum.photos/300/300",
+      "name": "London",
+      "distance": "17,461 kilometers",
+      "date": "11-16 Aug",
+      "price": "$450 per night"
+      }
+    },
+    {
+      "id": "mauritius",
+      "type": "bookings",
+      "attributes":{
+      "img": "https://picsum.photos/300/300",
+      "name": "Maurituis",
+      "distance": "2,700 kilometers",
+      "date": "18-23 July",
+      "price": "$250 per night"
+    }
+    },
+    {
+      "id": "leh",
+      "type": "bookings",
+      "attributes":{
+      "img": "https://picsum.photos/300/300",
+      "name": "Leh",
+      "distance": "1,600 kilometers",
+      "date": "25-30 Aug",
+      "price": "$220 per night"
+      }
+    },
+    {
+      "id": "california",
+      "type": "bookings",
+      "attributes":{
+      "img": "https://picsum.photos/300/300",
+      "name": "California",
+      "distance": "17,660 kilometers",
+      "date": "14-20 Oct",
+      "price": "$480 per night"
+    }
+    },
+    {
+      "id": "toronto",
+      "type": "bookings",
+      "attributes":{
+      "img": "https://picsum.photos/300/300",
+      "name": "Toronto",
+      "distance": "15,440 kilometers",
+      "date": "22-28 Oct",
+      "price": "$360 per night"
+    }
+    }
+
+  ],
+  "icon":[
+    {
+      
+      "id": "1",
+      "type": "icon",
+      "attributes" :{
+        "name": "fa-solid fa-hotel"
+      }
     }
   ]
 }
