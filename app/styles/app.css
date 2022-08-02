@@ -106,3 +106,31 @@ span{
 .main{
     gap:50px;
 }
+
+/* .image.large {
+    margin: 30px 25px 50px 25px;
+    flex-basis: 100%;
+  } */
+
+  .zero{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .bt{
+    color:#e7f6f2;
+    border-bottom: 1px solid #e7f6f2;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+.second{
+    border: 1px solid;
+    border-radius: 12px;
+    padding-right: 130px;
+}
+
+.third{
+    border: 1px solid #e7f6f2;
+    padding: 0 20px;
+
+}
