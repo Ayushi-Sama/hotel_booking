@@ -3,14 +3,18 @@
     <div class="d-flex flex-row main flex-wrap justify-content-evenly ">
     {{#each @booking as |booking|}}
 <div class="contain">
-    <div class="contain_head">
+    <Site::Image
+        src={{booking.img}} alt="Maldives" 
+     />
+    {{!-- <div class="contain_head">
         <img class="img-fluid location" src={{booking.img}} alt="Maldives" >
         <i class="heart fa fa-heart" aria-hidden="true"></i>
-    </div>
+    </div> --}}
     <div class="contain_body d-flex ps-2 flex-row align-items-start justify-content-between">
         <div>
         <div class="head d-flex flex-row align-items-center ">
              <h2>{{booking.name}} </h2>
+             <h2>{{@icon.name}}</h2>
         </div>
         
         <p>{{booking.distance}}           
