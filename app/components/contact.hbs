@@ -1,0 +1,32 @@
+<BsForm
+  @formLayout='vertical'
+  @model={{this.login}}
+  @onSubmit={{this.submit}}
+  as |form|
+>
+  <form.element @controlType='email' @label='Email' @property='email' as |el|>
+    <el.control placeholder='Email' required />
+  </form.element>
+  <form.element
+    @controlType='password'
+    @label='Password'
+    @property='password'
+    @helpText='Minimum 6 characters'
+    as |el|
+  >
+    <el.control placeholder='Password' required />
+  </form.element>
+  <form.element
+    @controlType='radio'
+    @label='Gender'
+    @property='radio'
+    @options={{this.radioOptions}}
+    @optionLabelPath='label'
+  />
+  <form.element
+    @controlType='checkbox'
+    @label='I accept the terms and conditions'
+    @property='checkbox'
+  />
+  <form.submitButton>Submit</form.submitButton>
+</BsForm>
