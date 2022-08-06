@@ -1,29 +1,76 @@
 <header>
-<div class="one d-flex flex-row justify-content-between align-items-center">
-            <div class="logo">
-                <i class="hotel fa-solid fa-hotel"></i>
-            </div>
-            <div class="nav">
-                <span class="mx-2" >Anywhere</span>
+  <div class='one d-flex flex-row justify-content-between align-items-center'>
+    <div class='logo'>
+      <i class='hotel fa-solid fa-hotel'></i>
+    </div>
+    <div class='nav'>
+      <ul class='d-flex flex-row list'>
+        <li>
+          <span class='mx-4'>Home</span>
+        </li>
+        <li>
+          <span class='mx-4'>About</span>
+        </li>
+        <li>
+          <span class='mx-4' {{on 'click' this.handleContact}}>Contact Us</span>
+        </li>
+      </ul>
+      {{! <span class="mx-2" >Anywhere</span>
                 <span class="mx-2" >Any Week</span>
                 <div class="login d-flex flex-row align-items-center">
                     <span class="mx-2 " >Add Guests</span>
                     <i class="search fa fa-search" aria-hidden="true"></i>
-                </div>
-            </div>
+                </div> }}
+    </div>
 
-            <div class="add">
-                <LinkTo @route="about">
-                    <button class="guests" type="button">Become A Guest</button>
-                </LinkTo>
-                
-            </div>
-            <div class="right search">
+    <div class='add'>
+      {{! <LinkTo @route='about'> }}
+      <button
+        class='guests'
+        type='button'
+        {{on 'click' this.handleGuest}}
+      >Become A Guest</button>
+      {{! </LinkTo> }}
+
+    </div>
+    {{! <div class="right search">
         <form class="d-flex" role="search">
         <input class="find me-3 " type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-danger me-2 " type="button">Search</button>
       </form>
-      </div>
+      </div> }}
 
-        </div>
+  </div>
 </header>
+
+<BsModal
+  @open={{this.openGuestModel}}
+  @onSubmit={{this.submit}}
+  @onHidden={{fn (mut this.modal3) false}}
+  as |modal|
+>
+  <modal.header>
+    <h5 class='modal-title'>
+      Become a Guest
+    </h5>
+  </modal.header>
+  <modal.body>
+    <Form />
+  </modal.body>
+</BsModal>
+
+<BsModal
+  @open={{this.openGuestContact}}
+  @onSubmit={{this.submitContact}}
+  @onHidden={{fn (mut this.modal3) false}}
+  as |modal|
+>
+  <modal.header>
+    <h5 class='modal-title'>
+      Contact Us
+    </h5>
+  </modal.header>
+  <modal.body>
+    <Contact />
+  </modal.body>
+</BsModal>

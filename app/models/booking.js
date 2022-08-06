@@ -7,6 +7,10 @@ export default class BookingModel extends Model {
     @attr price;
     @attr distance;
     @attr date;
+    @attr arrival;
+    @attr return;
+    @attr dome;
+    @attr title;
     
 
     // @attr title;

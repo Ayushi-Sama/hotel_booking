@@ -1,9 +1,8 @@
-
-<div class="px-3">
-    <h1>Lily Beach Resort,Maldives</h1>
+<div class="px-3 beach">
+    <h1>{{@booking.title}}</h1>
     <div class="d-flex flex-row justify-content-between">
         <div>
-             <span class="bt">Maldives</span>
+             <span class="bt">{{@booking.name}}</span>
         </div>
         <div class="d-flex px-3 flex-row align-items-center">
             <div class="d-flex px-3 flex-row align-items-center">
@@ -38,7 +37,7 @@
         <div class="first">
         <div class="d-flex flex-row justify-content-between align-items-center">
             <div>
-                <h1>Dome Rented By Ayushi</h1>
+                <h1>Dome Rented By {{@booking.dome}}</h1>
             <p>3 Guests.1 Bedroom.1 Bed.1 Bathroom</p>
             </div>
             
@@ -65,41 +64,128 @@
                 </div>
                 </div>
                 
+                <div class="d-flex flex-row align-items-center">
+                <i class="px-4 fa fa-star" aria-hidden="true"></i>
+                <div class="d-flex flex-column">
+                <h3>Free Cancellation for 48 hours</h3>
+                
+                </div>
+                </div>
+
             </div>
+            <hr>
+
+            <div class="d-flex flex-column">
+                <div>
+                    <h3>Where You Will Sleep !!</h3>
+                </div>
+                <div class="sleep m-3 ">
+                    <i class="fa-solid fa-bed"></i>
+                    <h5><b>Bedroom</b></h5>
+                    <p>1 double bed</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="d-flex flex-column">
+                <div>
+                     <h3><span style="color: red;">air<span style="color: white;">color</span></span>
+                     </h3>
+                </div>
+               <div>
+                    <p>Every booking includes free protection from Host cancellations, listing inaccuracies, and other issues like trouble checking in.</p>
+               </div>
+               <div>
+                    <a href="">Learn More</a>
+               </div>
+
+            </div>
+            <hr>
+
+            <div class="d-flex flex-column">
+                <div>
+                     <h3><b>ALL INCLUSIVE RESORT AWARD WINNER</b></h3>
+                </div>
+               <div>
+                    <p>Lily Beach is proud to have once again won the prestigious All Inclusive Resort Award this year.</p>
+               </div>
+
+            </div>
+            <hr>
             </div>
 
 
         <div class="second p-4 d-flex flex-column justify-content-evenly align-items-center">
-            <div class="pb-3">
-                <h3>Rs. 14145 per night</h3>
+            <div class="pb-3 " >
+                <h3>$ <span class="spa" id="price">{{@booking.price}}</span> per night</h3>
+                {{!-- <h3><span class="spa"></span></h3> --}}
             </div>
             
             <div class="d-flex flex-row ">  
-                <div class="third">
-                    <label>Check In</label>
-                    <p>8/5/2022</p>
+                <div class="three">
+                    <label for="in">Check In</label>
+                    <input name="in" id="in" type="date" value="2022-08-10">
+                    {{!-- <p>{{@booking.arrival}}</p> --}}
                 </div>
                 <div class="third">
-                    <label>Check In</label>
-                    <p>8/5/2022</p>
+                    <label for="out">Check Out</label>
+                    {{!-- <p>{{@booking.return}}</p> --}}
+                    <input id="out" name="out" type="date" value="2022-08-12">
                 </div>
                 
             </div>
 
-            <div class="d-flex flex-column align-items-center">
-                <button type="submit" class="btn btn-warning">Reserve</button>
-                <span class="bt">You won't be charged yet</span>
+            <div class="d-flex pt-3 pb-3 flex-column align-items-center">
+                <button type="submit" class="btn btn-warning" {{on "click" this.sayHello}}>Reserve</button>
+                <span class="bt pt-2">You won't be charged yet</span>
             </div>
 
-            <div class="d-flex flex-row justify-content-between">
+            <div class="d-flex w-100 flex-row justify-content-between">
                 <div>
-                    <span class="bt">Rs.14,145 * 3 nights = </span>
+                    {{!-- <span class="bt">{{@booking.price}} * <span class=" bt" id="night"> 2 </span> nights  </span> --}}
+                <p>Price </p>                    
                 </div>
                 <div>
-                    <p>Rs.42,435</p>
+                    <p >{{@booking.price}} / night</p>
                 </div>
                 
+            </div>
+
+            <div class="d-flex w-100 flex-row justify-content-between">
+                <div>
+                <p>Duration </p>                    
+                </div>
+                <div>
+                    <p><span id="night" class="spa"> 2 </span> nights </p>
+                    {{!-- <p id="night"> 2 <span class="bt">nights</span></p> --}}
+                </div>
                 
+            </div>
+
+            <div class="d-flex w-100 flex-row justify-content-between">
+                <div>
+                    <span class="spa">Service Fee</span>
+                </div>
+                <div>
+                    <p>0</p>
+                </div>
+            </div>
+
+            <hr class="horizontal" />
+
+            <div class="d-flex flex-row w-100 justify-content-between">
+                <div>
+                    <h5>Total Payable Amount</h5>
+                </div>
+                <div>
+                    <p id="final">{{@booking.price}}</p>
+                </div>
+
+            </div>
+            <hr class="horizontal" />
+            <div>
+                <button class="btn btn-warning w-100" type="submit">Confirm Booking</button>
             </div>
         </div>
 
@@ -134,15 +220,8 @@
         <i class="star p-0 fa fa-star" aria-hidden="true"></i>
         <p class="m-0 me-3 ms-2 p-0">New</p>
         </div>
-
     </div>
     </div>
    
     </div>
 </div> --}}
-            
-        
-
-        
-
-        

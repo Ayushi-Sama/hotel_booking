@@ -7,10 +7,22 @@
       "attributes": {
 
     "img": "https://picsum.photos/300/300",
+    "img1":"https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+    "images":[{
+      "img1":"https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    },
+    {
+      "img2":"https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    }
+    ],
       "name": "Maldives",
       "distance": "16,770 kilometers",
       "date": "19-24 Sep",
-      "price": "$490 per night"
+      "arrival": "19-Sep-2022",
+      "return" : "24-Sep-2022",
+      "price": "490",
+      "dome":"Ayushi",
+      "title":"Lily Beach Resort,Maldives"
       
 
     }
@@ -25,7 +37,11 @@
       "name": "Singapore",
       "distance": "19,000 kilometers",
       "date": "04-10 Aug",
-      "price": "$310 per night"
+      "arrival": "04-Aug-2022",
+      "return" : "10-Aug-2022",
+      "price": "310 ",
+      "dome": "Karan",
+      "title":"Chief Resort, Singapore"
       
     }
     },
@@ -37,8 +53,11 @@
       "name": "Dubai",
       "distance": "17,461 kilometers",
       "date": "11-16 Aug",
-      "price": "$450 per night"
-      
+      "price": "450",
+      "arrival": "11-Aug-2022",
+      "return" : "16-Aug-2022",
+      "dome": "Abhishek",
+      "title":"Water Hub, Dubai"
     }
     },
     {
@@ -49,7 +68,11 @@
       "name": "Goa",
       "distance": "1400 kilometers",
       "date": "15-20 Oct",
-      "price": "$260 per night"
+      "price": "260",
+      "arrival": "15-Oct-2022",
+      "return" : "20-Oct-2022",
+      "dome": "Lily",
+      "title":"Snow Park, Goa"
       
       }
 
@@ -62,7 +85,11 @@
       "name": "Sri Lanka",
       "distance": "16,650 kilometers",
       "date": "14-20 Aug",
-      "price": "$500 per night"
+      "price": "500",
+      "arrival": "14-Aug-2022",
+      "return" : "20-Aug-2022",
+      "dome": "Josie",
+      "title":"Menon Plaza Resort, Sri Lanka"
       }
 
     },
@@ -74,7 +101,11 @@
       "name": "London",
       "distance": "17,461 kilometers",
       "date": "11-16 Aug",
-      "price": "$450 per night"
+      "price": "450",
+      "arrival": "11-Aug-2022",
+      "return" : "16-Aug-2022",
+      "dome": "Elena",
+      "title":"Lady Gaga, London"
       }
     },
     {
@@ -82,10 +113,14 @@
       "type": "bookings",
       "attributes":{
       "img": "https://picsum.photos/300/300",
-      "name": "Maurituis",
+      "name": "Mauritius",
       "distance": "2,700 kilometers",
-      "date": "18-23 July",
-      "price": "$250 per night"
+      "date": "18-23 Nov",
+      "price": "250",
+      "arrival": "18-Nov-2022",
+      "return" : "23-Nov-2022",
+      "dome": "Damon",
+      "title":"Park Plaza, Mauritius"
     }
     },
     {
@@ -96,7 +131,11 @@
       "name": "Leh",
       "distance": "1,600 kilometers",
       "date": "25-30 Aug",
-      "price": "$220 per night"
+      "price": "220",
+      "arrival": "25-Aug-2022",
+      "return" : "30-Aug-2022",
+      "dome": "Stefan",
+      "title":"Park Info, Leh"
       }
     },
     {
@@ -107,7 +146,11 @@
       "name": "California",
       "distance": "17,660 kilometers",
       "date": "14-20 Oct",
-      "price": "$480 per night"
+      "price": "480",
+      "arrival": "14-Oct-2022",
+      "return" : "20-Oct-2022",
+      "dome": "Tyler",
+      "title":"Mystic Falls, California"
     }
     },
     {
@@ -118,7 +161,11 @@
       "name": "Toronto",
       "distance": "15,440 kilometers",
       "date": "22-28 Oct",
-      "price": "$360 per night"
+      "price": "360",
+      "arrival": "22-Oct-2022",
+      "return" : "28-Oct-2022",
+      "dome": "Jeremy",
+      "title":"Royal Garden , Toronto"
     }
     }
 
