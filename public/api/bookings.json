@@ -22,9 +22,9 @@
       "return" : "24-Sep-2022",
       "price": "490",
       "dome":"Ayushi",
-      "title":"Lily Beach Resort,Maldives"
-      
-
+      "title":"Lily Beach Resort,Maldives",
+      "double":"1078",
+      "service": "10"
     }
     },
     {
@@ -41,7 +41,9 @@
       "return" : "10-Aug-2022",
       "price": "310 ",
       "dome": "Karan",
-      "title":"Chief Resort, Singapore"
+      "title":"Chief Resort, Singapore",
+      "double":"682",
+      "service":"10"
       
     }
     },
@@ -57,7 +59,9 @@
       "arrival": "11-Aug-2022",
       "return" : "16-Aug-2022",
       "dome": "Abhishek",
-      "title":"Water Hub, Dubai"
+      "title":"Water Hub, Dubai",
+      "double":"990",
+      "service": "10"
     }
     },
     {
@@ -72,8 +76,9 @@
       "arrival": "15-Oct-2022",
       "return" : "20-Oct-2022",
       "dome": "Lily",
-      "title":"Snow Park, Goa"
-      
+      "title":"Snow Park, Goa",
+      "double":"572",
+      "service": "10"
       }
 
     },
@@ -89,7 +94,9 @@
       "arrival": "14-Aug-2022",
       "return" : "20-Aug-2022",
       "dome": "Josie",
-      "title":"Menon Plaza Resort, Sri Lanka"
+      "title":"Menon Plaza Resort, Sri Lanka",
+      "double":"1100",
+      "service":"10"
       }
 
     },
@@ -105,7 +112,9 @@
       "arrival": "11-Aug-2022",
       "return" : "16-Aug-2022",
       "dome": "Elena",
-      "title":"Lady Gaga, London"
+      "title":"Lady Gaga, London",
+      "double":"990",
+      "service":"10"
       }
     },
     {
@@ -120,7 +129,9 @@
       "arrival": "18-Nov-2022",
       "return" : "23-Nov-2022",
       "dome": "Damon",
-      "title":"Park Plaza, Mauritius"
+      "title":"Park Plaza, Mauritius",
+      "double":"550",
+      "service": "10"
     }
     },
     {
@@ -135,7 +146,9 @@
       "arrival": "25-Aug-2022",
       "return" : "30-Aug-2022",
       "dome": "Stefan",
-      "title":"Park Info, Leh"
+      "title":"Park Info, Leh",
+      "double":"484",
+      "service": "10"
       }
     },
     {
@@ -150,7 +163,9 @@
       "arrival": "14-Oct-2022",
       "return" : "20-Oct-2022",
       "dome": "Tyler",
-      "title":"Mystic Falls, California"
+      "title":"Mystic Falls, California",
+      "double":"1056",
+      "service": "10"
     }
     },
     {
@@ -165,7 +180,10 @@
       "arrival": "22-Oct-2022",
       "return" : "28-Oct-2022",
       "dome": "Jeremy",
-      "title":"Royal Garden , Toronto"
+      "title":"Royal Garden , Toronto",
+      "double":"792",
+      "service": "10"
+
     }
     }
 

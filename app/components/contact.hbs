@@ -16,17 +16,24 @@
   >
     <el.control placeholder='Password' required />
   </form.element>
-  <form.element
+
+  <form.element @controlType='text' @label='Query' @property='text' as |el|>
+    <el.control placeholder='Type Your Query Here' required />
+  </form.element>
+
+  {{!-- <form.element
     @controlType='radio'
     @label='Gender'
     @property='radio'
     @options={{this.radioOptions}}
     @optionLabelPath='label'
-  />
+  /> --}}
   <form.element
     @controlType='checkbox'
     @label='I accept the terms and conditions'
-    @property='checkbox'
-  />
+    @property='checkbox' as |el|
+  >
+  <el.control required />
+  </form.element>
   <form.submitButton>Submit</form.submitButton>
 </BsForm>

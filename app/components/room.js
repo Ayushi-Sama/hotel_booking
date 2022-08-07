@@ -30,11 +30,16 @@ sayHello() {
 
     let e = document.getElementById("price").innerHTML.replace(/[^0-9]/g, "");
     let f = d*e;
+    let service = document.getElementById("service").innerHTML.replace(/[^0-9]/g, "");
+    let fee = f+ (f* service)/100;
+    let fees = Math.ceil(fee);
+    console.log(fee);
+    console.log(Math.ceil(fee))
     console.log(f);
     console.log(e);
     // let g= document.querySelectorAll("#final");
     [... document.querySelectorAll('#final')]
-    .map(i => i.innerHTML = `$ ${f}`);
+    .map(i => i.innerHTML = `$ ${fees}`);
 
 
 //   console.log(g);
