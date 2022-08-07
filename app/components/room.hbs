@@ -147,7 +147,7 @@
                 <p>Price </p>                    
                 </div>
                 <div>
-                    <p >{{@booking.price}} / night</p>
+                    <p >$ {{@booking.price}} / night</p>
                 </div>
                 
             </div>
@@ -168,7 +168,7 @@
                     <span class="spa">Service Fee</span>
                 </div>
                 <div>
-                    <p>0</p>
+                    <p id="service">{{@booking.service}} %</p>
                 </div>
             </div>
 
@@ -176,10 +176,10 @@
 
             <div class="d-flex flex-row w-100 justify-content-between">
                 <div>
-                    <h5>Total Payable Amount</h5>
+                    <h5>Total Payable Amount (Approximately)</h5>
                 </div>
                 <div>
-                    <p id="final">{{@booking.price}}</p>
+                    <p id="final">$ {{@booking.double}}</p>
                 </div>
 
             </div>

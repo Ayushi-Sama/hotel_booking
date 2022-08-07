@@ -11,6 +11,8 @@ export default class BookingModel extends Model {
     @attr return;
     @attr dome;
     @attr title;
+    @attr double;
+    @attr service;
     
 
     // @attr title;

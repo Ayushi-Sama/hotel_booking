@@ -7,16 +7,17 @@ export default class ContactsController extends Component {
     formLayout = 'vertical';
     email = 'foo@example.com';
     password = null;
+    query = null;
     checkbox = false;
-    radio = null;
-    radioOptions = [
-        {
-            label: 'Male',
-        },
-        {
-            label: 'Female',
-        },
-    ];
+    // radio = null;
+    // radioOptions = [
+    //     {
+    //         label: 'Male',
+    //     },
+    //     {
+    //         label: 'Female',
+    //     },
+    // ];
 
     get login() {
         return Login.create(getOwner(this).ownerInjection());
