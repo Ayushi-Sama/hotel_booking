@@ -206,3 +206,48 @@ li span:hover {
 .linked:hover {
   color: #a5c9ca;
 }
+
+.about{
+  color: #e7f6f2;
+  /* width: 80px; */
+  max-width: 100%;
+  padding: 50px;
+  text-align:end;
+  /* border: 2px solid; */
+}
+
+.fun{
+  background-color: #b6d3da;
+  padding: 50px;
+  max-width: 100%;
+  font-weight: bolder;
+}
+
+.facts{
+  border: 3px solid;
+  width: 300px;
+  padding: 30px;
+  margin: 15px;
+}
+
+.footer{
+  color: #e7f6f2;
+  padding: 20px;
+  border: 0px solid;
+}
+.firstdiv{
+  float: left;
+}
+.seconddiv{
+  float: right;
+  padding-right: 30px;
+}
+
+/* .copyright{
+  height: 50px;
+  width: 50px;
+} */
+
+.icons{
+  padding: 10px;
+}
