@@ -1,10 +1,32 @@
 import Component from '@glimmer/component';
+import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
 
 export default class RoomComponent extends Component {
     text = 'Hello, world!';
     // {{@booking.price}}
+    // @tracked preferredButtonColor = '';
+    // total = 0;
+    // a = document.getElementById("in");
+    // @tracked b = document.getElementById("out");
+    // inDate = new Date(a);
+    // outDate = new Date(b);
+    
+    // c =  Date.parse(outDate)-Date.parse(inDate);
+    // duration =  (c/(1000*3600*24)); 
+    // price = document.getElementById("price");
 
+// @action
+// calculateTotal(price,duration){
+//     console.log(duration);
+//     return total =  price * duration;
+// }
+
+// @action
+// calculateTotal(){
+//     // console.log(duration);
+//     return total =  4*5;
+// }
 @action
 sayHello() {
     let a = document.getElementById("in").value;
@@ -44,4 +66,15 @@ sayHello() {
 
 //   console.log(g);
 }
+
+@action
+  changeColor() {
+    if (this.preferredButtonColor === '') {
+        this.preferredButtonColor = 'red';
+    }
+    else {
+        this.preferredButtonColor = '';
+        // this.set('preferredButtonColor', 'transparent');
+      }
+    }
 }
