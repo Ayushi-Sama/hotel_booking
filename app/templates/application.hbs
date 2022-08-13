@@ -5,6 +5,20 @@
 
 
 
-{{!-- Feel free to remove this! --}}
+{{!-- {{#if (media 'isDesktop')}}
+  Desktop view!
+{{/if}}
 
-{{outlet}}
+{{#if (media 'isMobile')}}
+  Mobile view!
+{{/if}}
+
+{{#if media.isTablet}}
+  Tablet view!
+{{/if}} --}}
+
+{{!-- Feel free to remove this! --}}
+<div class="{{media 'classNames'}}">
+  {{outlet}}
+</div>
+{{!-- {{outlet}} --}}

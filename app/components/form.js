@@ -3,6 +3,7 @@ import { action } from '@ember/object';
 import { getOwner } from '@ember/application';
 import Login from '../models/login';
 
+
 export default class FormsController extends Component {
     formLayout = 'vertical';
     email = 'foo@example.com';

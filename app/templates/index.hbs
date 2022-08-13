@@ -3,6 +3,35 @@
 
 <Site @booking={{this.model}} @icon={{this.model}} />
 <hr style="color: #e7f6f2;">
+
+{{!-- {{#if (media 'isDesktop')}}
+  <h1>Desktop view!</h1>
+{{/if}} --}}
+
+{{#if (media 'isMobile')}}
+  <h1 style='color: #fff'>HEYYYYYYYYYYYYYYYYYYyyy</h1>
+{{/if}}
+
+{{#if (media 'isTablet')}}
+  <h1 style='color: #fff'>Tablet</h1>
+{{/if}}
+
+{{#if (media 'isDesktop')}}
+  <h1 style='color: #fff'>Desktop</h1>
+{{/if}}
+
+{{!-- {{#if media.isTablet}}
+  <h1>Tablet view!</h1>
+{{/if}} --}}
+
+<div class="block some-semantic-name">
+  This is vanilla HTML and CSS selectors using classes applied by the
+  <code>ApplicationView</code>'s <code>classNameBindings</code>.
+</div>
+
+
+{{!-- this.get('media.isMobile');  --}}
+
 <Footer />
 
 {{outlet}}
