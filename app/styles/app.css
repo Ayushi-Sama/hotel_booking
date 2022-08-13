@@ -255,14 +255,42 @@ li span:hover {
   padding: 10px;
 }
 
-.media-jumbo,
+/* .media-jumbo,
 .media-desktop,
 .media-tablet {
   margin: 200px;
-}
+} */
 
 
 .media-jumbo   .some-semantic-name { color: #2ecc71; }
 .media-desktop .some-semantic-name { color: #9b59b6; }
 .media-tablet  .some-semantic-name { color: #1abc9c; }
-.media-mobile  .some-semantic-name { color: #2c3e50; }
+.media-mobile  .some-semantic-name { color: #96dd09; }
+
+.media-mobile 
+  .footer{
+    display: flex;
+    flex-direction: column !important;
+  }
+  .media-mobile   
+  .filters{
+    /* flex-wrap: wrap; */
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+  .media-mobile 
+  .nav{
+    display: none !important;
+  }
+  /* .one{
+    display: flex;
+    flex-direction: column !important;
+  } */
+
+/* .media-tablet
+.nav{
+  display: show !important;
+} */
